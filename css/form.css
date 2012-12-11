@@ -1,0 +1,100 @@
+
+form.calc { 
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 12px;
+
+  min-width: 500px;
+  max-width: 700px;
+  width: 560px; 
+}
+
+form.calc fieldset {
+  border-color: #cccccc;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;        /* padding in fieldset support spotty in IE */
+  margin: 0;
+  background: url(http://glacier.gsu.edu/calculator/gradient.png) left bottom repeat-x;
+}
+
+form.calc label { 
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 150px; 
+	padding: 0; 
+	margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+	text-align: right; 
+}
+
+
+
+
+
+form.calc fieldset legend {
+	 font-size: 15px; /* bump up legend font size, not too large or it'll overwrite border on left */
+      font-weight: bold;                 /* be careful with padding, it'll shift the nice offset on top of border  */
+}
+
+form.calc input, form.calc textarea {
+	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+	width:auto;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
+                              label aligns textarea better in IE */
+}
+
+
+ .cost {
+	width:auto;     
+	margin:5px 0 0 160px; 
+}
+
+
+
+form.calc select.slc {
+	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+	width:auto;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
+                              label aligns textarea better in IE */
+}
+
+
+form.calc FIELDSET DIV.notes {
+  PADDING-LEFT: 5px; FONT-SIZE: 78%; FLOAT: right; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 10px 10px;  WIDTH: 100px; COLOR: #666666; PADDING-TOP: 5px; HEIGHT: auto;
+}
+
+form.calc FIELDSET DIV.notes H4 {
+	 PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top;  PADDING-LEFT: 0px; FONT-SIZE: 14px;  PADDING-BOTTOM: 3px;  COLOR: #666666;  BORDER-BOTTOM: #666666 1px solid; BACKGROUND-REPEAT: no-repeat;
+}
+form.calc FIELDSET DIV.notes P.last {
+	MARGIN: 0em;  PADDING-TOP: 50px;
+}
+
+
+
+
+.popup{
+		padding:.5em;
+		border:.5px solid #999;
+		position:absolute;
+		min-height:2em;
+		min-width:2em;
+		top:0;
+		left:0;
+	}
+a.popuplink{
+		padding:0 .5em;	
+		border:0px solid #999;
+		text-decoration:none;
+		font-weight:bold;
+		color:#666;
+		margin-bottom:-1px;
+	}
+.popup iframe{
+		width:99%;
+		height:99%;	
+	}
+
+
+
+
+
